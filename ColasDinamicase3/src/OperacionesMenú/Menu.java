@@ -65,23 +65,17 @@ public void Menu() {
 			{
 				if(!colav.Nohaynada()) 
 				{
-				Ventanilla[i] = colav.SacarUnElemento();
+				
 				colav.SacarCola();
 				}
-				if(colav.Nohaynada() && colac.Nohaynada()) 
-				{
-			  System.out.println("0 en espera");
-				}
+				
 				else
 				{
-				Ventanilla[i] = colac.SacarUnElemento();
+		
 				colac.SacarCola();
 				}
 				
 			}
-			
-			System.out.println("|          Ventanilla 1           |          Ventanilla 2          |          Ventanilla 3          |");
-			System.out.println(" "+Ventanilla[0]+"  "+Ventanilla[1]+"  "+Ventanilla[2]);
 					
 		break;
 		
